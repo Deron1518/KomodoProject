@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36A389CA-F6BF-467E-A7E4-9F9A2506E105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.Data", "src\Developer.Data\Komodo.Data.csproj", "{B3081359-F819-49DD-AADF-FE4F5248A597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.Repository", "src\DeveloperRepo.Repository\Komodo.Repository.csproj", "{A9027AAD-C846-4E82-A445-C45DC15BC3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTeam.Data", "src\DevTeam.Data\DevTeam.Data.csproj", "{B4096C65-1557-4A8B-A22C-FC96C9021738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTeamRepo.Repository", "src\DevTeamRepo.Repository\DevTeamRepo.Repository.csproj", "{829CA827-3516-4AEC-93A8-C70D9BF1C388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.UI", "src\Komodo.UI\Komodo.UI.csproj", "{72F5770B-617A-4FB2-B3F1-E54D33A9E844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3081359-F819-49DD-AADF-FE4F5248A597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3081359-F819-49DD-AADF-FE4F5248A597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3081359-F819-49DD-AADF-FE4F5248A597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3081359-F819-49DD-AADF-FE4F5248A597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9027AAD-C846-4E82-A445-C45DC15BC3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9027AAD-C846-4E82-A445-C45DC15BC3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9027AAD-C846-4E82-A445-C45DC15BC3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9027AAD-C846-4E82-A445-C45DC15BC3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4096C65-1557-4A8B-A22C-FC96C9021738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4096C65-1557-4A8B-A22C-FC96C9021738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4096C65-1557-4A8B-A22C-FC96C9021738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4096C65-1557-4A8B-A22C-FC96C9021738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829CA827-3516-4AEC-93A8-C70D9BF1C388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829CA827-3516-4AEC-93A8-C70D9BF1C388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829CA827-3516-4AEC-93A8-C70D9BF1C388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829CA827-3516-4AEC-93A8-C70D9BF1C388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F5770B-617A-4FB2-B3F1-E54D33A9E844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F5770B-617A-4FB2-B3F1-E54D33A9E844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F5770B-617A-4FB2-B3F1-E54D33A9E844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F5770B-617A-4FB2-B3F1-E54D33A9E844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3081359-F819-49DD-AADF-FE4F5248A597} = {36A389CA-F6BF-467E-A7E4-9F9A2506E105}
+		{A9027AAD-C846-4E82-A445-C45DC15BC3AB} = {36A389CA-F6BF-467E-A7E4-9F9A2506E105}
+		{B4096C65-1557-4A8B-A22C-FC96C9021738} = {36A389CA-F6BF-467E-A7E4-9F9A2506E105}
+		{829CA827-3516-4AEC-93A8-C70D9BF1C388} = {36A389CA-F6BF-467E-A7E4-9F9A2506E105}
+		{72F5770B-617A-4FB2-B3F1-E54D33A9E844} = {36A389CA-F6BF-467E-A7E4-9F9A2506E105}
+	EndGlobalSection
+EndGlobal
